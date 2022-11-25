@@ -1,0 +1,18 @@
+
+○ 표준 입출력
+	- 입력 : 키보드 ▶ System.in.read();
+	- 출력 : 모니터	▶ System.out.println();
+	
+○ 입력 스트림 제공 : IO Project
+	InputStream is = System.in;							//키보드에서 바이트(한글자) 단위로 입력
+	InputStreamReader isr = new InputStreamReader(is);	//문자 단위로 입력
+	BufferedReader br = new BufferedReader(isr);			//버퍼를 이용한 입력 속도 향상
+	
+○ 입력 클래스 제공 : Scanner → 객체화(객체생성) ▶ new 를 활용
+	Scanner scanner = new Scanner(system.in);
+	A		a		= new A();
+	
+○ Scanner Class의 주요한 기능 → Method(메소드) (=동작)
+	nextInt();		→ 키보드에서 정수값을 입력받는 기능
+	nextDouble();	→ 키보드에서 정수값을 입력받는 기능
+	nextLine();		→ 키보드에서 Enter 이전까지 입력받는 기능

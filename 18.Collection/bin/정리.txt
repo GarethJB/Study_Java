@@ -1,0 +1,14 @@
+여러개의 데이터를 모아둔 데이터 그룹으로
+데이터 검색, 추가, 삭제, 삽입 기능을 효율적으로 사용할 수 있도록 만들어진
+논리적 구조 : 자료구조(Collection)
+
+어떤 타입의 데이터를 담을것인지 객체를 생성할 때 결정한다.
+ArrayList, LinkedList, HashMap
+
+List, Set, Map
+
+new ArrayList<T>()
+T(Type Parameter) : 래퍼런스 타입만 지정 가능
+
+
+new HashMap<k>
